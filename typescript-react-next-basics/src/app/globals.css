@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+@tailwind base;
+@tailwind loadComponents;
+@tailwind utilities;
+
+body {
+  background: #101010;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+button {
+  background: #3884f9;
+  color: white;
+  padding: 2mm 4mm;
+  border-radius: 4px;
+  font-weight: bold;
+}
